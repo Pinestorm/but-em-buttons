@@ -28,3 +28,29 @@ p {
 .btn-ghost .rocket {
   tansition: all 200ms linear;
 }
+
+.rocket {
+  transform: translate(8px, -4px);
+}
+
+.btn-ghost:hover,
+.bth-ghost:focus {
+  background-color: rgba(180, 225, 244, .2);
+  border-color: #b4fff4;
+  color: #b4fff4;
+}
+
+.btn-ghost:hover .rocket,
+.btn-ghost:focus .rocket {
+  transform: translate(8px, -8px);
+}
+
+.btn-ghost:active {
+  height: 68px;
+}
+
+.btn:active {
+  position: absolute;
+  top: 500px;
+  left: 390px;
+}
